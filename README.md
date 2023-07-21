@@ -8,4 +8,5 @@ git clone <url>
 ```console
 npm install
 ```
-3. Listo.
+3. Elimine el archivo README.md
+4. Listo.
