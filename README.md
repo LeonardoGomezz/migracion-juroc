@@ -24,3 +24,12 @@ git remote
 ```
 
 #### Nota: recuerda que esto solo elimina la referencia de seguimiento en tu repositorio local. La rama remota seguira existiendo en el repositorio de GitHub.
+
+5. Adicionalmente, en tu configuracion de VSCode ajusta Tab Size en 2.
+6. En el settings.json, asegurate de tener esto:
+```console
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2
+```
