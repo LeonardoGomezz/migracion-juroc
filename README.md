@@ -6,6 +6,13 @@
 - TailwindCSS@3.3.3
 - React@18.2.0
 
+#### Estructura
+    .
+    ├── components               # Collection of UI components (buttons, form, nav, etc.)
+    ├── pages                    # Pages Router
+    ├── public                   # Static assets (images, fonts, etc.)
+    └── styles                   # Global styles
+
 ### Clonar template:
 
 1. Clone el repositorio:
