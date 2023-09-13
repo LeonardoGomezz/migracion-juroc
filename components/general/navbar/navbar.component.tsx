@@ -4,6 +4,7 @@ import { AiOutlineMenu} from 'react-icons/ai'
 import { AiOutlineClose } from 'react-icons/ai'
 import menu from '../../../pages/api/menu.json'
 
+
 function DropdownMenu({ item }) {
   return (
     <div className="relative group">
@@ -18,7 +19,7 @@ function DropdownMenu({ item }) {
                 <SubDropdownMenu subitem={subitem} />
               ) : (
                 <Link href={subitem.ruta}>
-                  <a className="block px-4 py-2 hover:bg-gray-200">{subitem.title}</a>
+                  <a className="block px-4 py-2 hover:bg-green-400">{subitem.title}</a>
                 </Link>
               )}
               <hr />
@@ -56,16 +57,16 @@ const Navbar = () => {
   
   return (
     <div>
-      <div className="flex w-full xl:w-full bg-gradient-to-b from-[#47AF83] via-rgba(71, 175, 131, 0.00) to-rgba(71, 175, 131, 0.00) lg:w-[1920px] lg:h-[100px]">
-        <h1 className="w-[90%] text-white text-[15px] font-semibold mx-auto pt-8 pb-10  lg:text-2xl lg:w-[1028px] lg:h-[32px]">En Juroc trabajamos con Productos, Equipos Certificados UL, Aprobados FM y Nacionales.</h1>
+      <div className="w-full  bg-gradient-to-b from-[#47AF83] via-rgba(71, 175, 131, 0.00) to-rgba(71, 175, 131, 0.00)  lg:h-[100px] hidden sm:block">
+        <h1 className=" text-white text-[15px] text-center font-semibold mx-auto pt-8 pb-10  lg:text-2xl  lg:h-[32px] font-manrope">En Juroc trabajamos con Productos, Equipos Certificados UL, Aprobados FM y Nacionales.</h1>
       </div>
-      <nav className="w-full top-0 left-0 right-0 z-10 bg-gradient-to-b from-[rgba(73,80,152,0.50)] via-transparent to-[rgba(71,175,131,0.14)] lg:h-[100px]">
+      <nav className="w-full top-0 left-0 right-0 z-50 bg-gradient-to-b from-[rgba(73,80,152,0.50)] via-transparent to-[rgba(71,175,131,0.14)] lg:h-[100px]">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
-              <Link href="#">
-                <img className='w-[135px]' src="/img/logo_juroc.png" alt="" />
+              <Link href="/">
+                <img className='w-[135px] cursor-pointer' src="/img/logo_juroc.webp" alt="logo-juroc" title="logo juroc" />
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
@@ -97,13 +98,13 @@ const Navbar = () => {
                 navbar ? 'p-12 md:p-0 block' : 'hidden'
               }`}
             >
-              <ul className="h-screen md:h-auto items-center justify-center md:flex ">
+              <ul className="h-screen md:h-auto items-center justify-center md:flex font-PlayfairDisplay">
                 {menu.map((item, index) => (
                   <li key={index} className="text-white font-semibold lg:text-2xl    pb-6 text-xl py-2 md:px-6 text-center border-b-2 md:border-b-0 focus:underline hover:underline">
                     {item.submenu.length > 0 ? (
                       <DropdownMenu item={item} />
                     ): (
-                      <Link href="/" onClick={() => setNavbar(!navbar)}>
+                      <Link href={item.ruta} onClick={() => setNavbar(!navbar)}>
                         <a>{item.title}</a>
                       </Link>
                     )}

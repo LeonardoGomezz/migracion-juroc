@@ -21,12 +21,12 @@ const HeroComponent = () => {
               >
                 En Juroc protegemos tu vida y tus propiedades.
               </p>
-              <img
+              {/* <img
                 className=" sm:mt-[-39px] sm:ml-[659px] lg:ml-[380px] xl:ml-[460px] lg:mt-[-38px] w-[20px] h-[20px]  sm:w-[42px] sm:h-[40px]"
                 src="/img/home/hero/fuego.webp"
                 alt="fuego"
                 title="fire-icon"
-              />
+              /> */}
             </div>
 
             <button
@@ -42,7 +42,7 @@ const HeroComponent = () => {
 
           <div className="lg:w-[50%]">
             <img
-              className="bg-cover w-full lg:w-[641px] lg:h-[640px] xl:w-[741px] xl:h-[740px] lg:mt-[-55px] xl:mt-[-64px]"
+              className="bg-cover w-full lg:w-[641px] lg:h-[640px] xl:w-[741px] xl:h-[740px] lg:mt-[10px]"
               src="/img/home/hero/Home-Hero.webp"
               alt="cabecera-inicio"
               title="cabecera-inicio"
