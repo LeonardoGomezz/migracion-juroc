@@ -89,9 +89,9 @@ const ProductsServices = () => {
         <div>
           <ServicesMobil />
         </div>
-        <div>
-          <FeaturedProjects />
-        </div>
+        
+        <FeaturedProjects />
+        
       </div>
     </>
   )

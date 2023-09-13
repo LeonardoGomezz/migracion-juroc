@@ -22,7 +22,7 @@ const FeaturedProjects = () => {
 
   return (
     <>
-      <div className="mt-36 bg-amber-400">
+      <div className="mt-36 w-full">
         <h2
           data-aos="fade-down"
           className="text-center font-PlayfairDisplay lg:leading-normal lg:font-semibold not-italic lg:text-6xl text-xl font-bold leading-normal"
@@ -80,7 +80,7 @@ const FeaturedProjects = () => {
           </div>
           
         </div>
-        <div className="pt-20 lg:hidden bg-red-500">
+        <div className="pt-20 lg:hidden">
           <Swiper
             slidesPerView={1}
             loop={true}
@@ -94,7 +94,7 @@ const FeaturedProjects = () => {
             {ImageContent}
           </Swiper>
           
-          <div className="bg-black text-center font-manrope text-xs not-italic font-bold leading-4">
+          <div className="text-center font-manrope text-xs not-italic font-bold leading-4">
             <p>Productos certificados</p>
           </div>
         </div> 

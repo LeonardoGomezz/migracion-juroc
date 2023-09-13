@@ -126,9 +126,9 @@ const ProductsContent = () => {
         <div className="block sm:hidden">
           <ProductsMobil />
         </div>
-        <div>
-          <FeaturedProjects/>
-        </div>
+        
+        <FeaturedProjects/>
+        
       </div>
     </>
   )
