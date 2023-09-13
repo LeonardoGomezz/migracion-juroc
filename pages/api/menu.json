@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Inicio",
+    "ruta": "/",
+    "submenu":[] 
+  },
+  {
+    "title": "Servicios",
+    "ruta": "/servicios",
+    "submenu":[
+      {
+        "title":"Servicios de interés",
+        "ruta":"/interesting-service/",
+        "submenu": []
+        
+      },
+      {
+        "title":"Por segmento",
+        "ruta":"/bysegment/",
+        "submenu": [
+          {
+            "title": "Linea hidráulica",
+            "ruta":"/bysegment/lineHidraulica"
+          },
+          {
+            "title": "Ingeniería",
+            "ruta": "/bysegment/engineering"
+          }
+        ]
+        
+      }
+    ] 
+  },
+  {
+    "title": "Productos",
+    "ruta": "/products",
+    "submenu":[
+      {
+        "title":"Productos de interés",
+        "ruta":"/interesting-products/",
+        "submenu": []
+        
+      },
+      {
+        "title":"Por productos",
+        "ruta":"/Byproducts/",
+        "submenu": [
+          {
+            "title": "Líneas",
+            "ruta":"/byproduct/lines/"
+          },
+          {
+            "title": "Industrial",
+            "ruta": "/Byproducts/industrial"
+          },
+          {
+            "title": "Bomberil",
+            "ruta": "/Byproducts/bomberil"
+          }
+
+        ]
+        
+      }
+    ] 
+  },
+  {
+    "title": "Blog",
+    "ruta": "/blogs",
+    "submenu":[] 
+  }
+]
