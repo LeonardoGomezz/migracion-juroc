@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react"
-import { useRouter } from "next/router"
-import { BlogContent } from "../../../../../DataInfo/data.component"
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
+import { BlogContent } from '../../../../../DataInfo/data.component'
 
 const ContentBlog = () => {
   const { query, asPath } = useRouter()
   const { blogcontent } = query
-  const [service, setSetvice] = useState("")
+  const [service, setSetvice] = useState('')
 
   useEffect(() => {
     setSetvice(blogcontent as string)

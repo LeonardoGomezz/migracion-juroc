@@ -1,24 +1,23 @@
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Autoplay } from 'swiper/modules'
-import 'swiper/css'
-import { otherClients } from "../../../DataInfo/slider.component";
+// import { Swiper, SwiperSlide } from 'swiper/react'
+// import { Navigation, Pagination, Autoplay } from 'swiper/modules'
+// import 'swiper/css'
+// import { otherClients } from '../../../DataInfo/slider.component'
 
 const FeaturedProjects = () => {
-
-  const ImageContent = otherClients.map((item) => {
-    return (
-      <SwiperSlide key={item.id}>
-        <div className="flex flex-col justify-center items-center h-56 align-baseline content-center mx-4">
-          <img
-            className="object-bottom"
-            src={item.cliente}
-            alt={item.alt}
-            title={item.title}
-          />
-        </div>
-      </SwiperSlide>
-    );
-  });
+  // const ImageContent = otherClients.map((item) => {
+  //   return (
+  //     <SwiperSlide key={item.id}>
+  //       <div className="flex flex-col justify-center items-center h-56 align-baseline content-center mx-4">
+  //         <img
+  //           className="object-bottom"
+  //           src={item.cliente}
+  //           alt={item.alt}
+  //           title={item.title}
+  //         />
+  //       </div>
+  //     </SwiperSlide>
+  //   )
+  // })
 
   return (
     <>
@@ -98,9 +97,8 @@ const FeaturedProjects = () => {
             <p>Productos certificados</p>
           </div>
         </div> */}
-
       </div>
     </>
-  );
-};
-export default FeaturedProjects;
+  )
+}
+export default FeaturedProjects

@@ -1,9 +1,9 @@
-import { BlogTarjets } from "../../../../DataInfo/data.component";
-import { AiOutlineDoubleLeft } from "react-icons/ai";
-import Link from "next/link";
+import { BlogTarjets } from '../../../../DataInfo/data.component'
+import { AiOutlineDoubleLeft } from 'react-icons/ai'
+import Link from 'next/link'
 
 const Blog = () => {
-  const blogTarjet = BlogTarjets.slice(-2);
+  const blogTarjet = BlogTarjets.slice(-2)
 
   return (
     <>
@@ -43,9 +43,7 @@ const Blog = () => {
                 </div>
                 <div className="flex flex-col gap-6 pr-7">
                   <div className="">
-                    <h2
-                      className="font-PlayfairDisplay text-center sm:text-start not-italic text-base sm:text-4xl font-semibold sm:font-bold leading-4 sm:leading-10"
-                    >
+                    <h2 className="font-PlayfairDisplay text-center sm:text-start not-italic text-base sm:text-4xl font-semibold sm:font-bold leading-4 sm:leading-10">
                       {content.tarjetTitle}
                     </h2>
                   </div>
@@ -77,6 +75,6 @@ const Blog = () => {
         </div>
       </div>
     </>
-  );
-};
-export default Blog;
+  )
+}
+export default Blog

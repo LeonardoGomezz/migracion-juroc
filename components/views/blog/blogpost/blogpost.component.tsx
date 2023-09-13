@@ -1,5 +1,5 @@
-import HeroBlogPost from "./heroblogpost/heroblopost.component"
-import Publications from "./publications/publications.component"
+import HeroBlogPost from './heroblogpost/heroblopost.component'
+import Publications from './publications/publications.component'
 
 const BlogPost = () =>{
   return(

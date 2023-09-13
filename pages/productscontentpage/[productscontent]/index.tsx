@@ -1,5 +1,5 @@
-import Layout from "../../../components/general/layout/layout.componen"
-import Products from "../../../components/views/categoriesproducts/products.component"
+import Layout from '../../../components/general/layout/layout.componen'
+import Products from '../../../components/views/categoriesproducts/products.component'
 
 const ProductsPage = () =>{
   return(

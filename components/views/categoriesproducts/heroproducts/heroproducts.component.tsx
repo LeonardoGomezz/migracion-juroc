@@ -1,20 +1,20 @@
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import { ProductsTarjets } from "../../../../DataInfo/data.component";
+import { useRouter } from 'next/router'
+import { useEffect, useState } from 'react'
+import Link from 'next/link'
+import { ProductsTarjets } from '../../../../DataInfo/data.component'
 
 const HeroProducts = () => {
-  const { query, asPath } = useRouter();
-  const { productscontent } = query;
-  const [service, setSetvice] = useState("");
+  const { query, asPath } = useRouter()
+  const { productscontent } = query
+  const [service, setSetvice] = useState('')
 
   useEffect(() => {
-    setSetvice(productscontent as string);
-  }, [asPath]);
+    setSetvice(productscontent as string)
+  }, [asPath])
 
   const tarjetFilter = ProductsTarjets.filter(
     (tarjets) => service === tarjets.categorie
-  );
+  )
   // console.log(tarjetFilter)
 
   return (
@@ -25,9 +25,9 @@ const HeroProducts = () => {
             <img
               className="hidden sm:block"
               src={
-                service == "bomberil"
-                  ? "/productos/bomberil/HeroBomberil.webp"
-                  : "/productos/industrial/HeroIndustrial.webp"
+                service == 'bomberil'
+                  ? '/productos/bomberil/HeroBomberil.webp'
+                  : '/productos/industrial/HeroIndustrial.webp'
               }
               alt={`Hero de ${service}`}
               title={`Hero de ${service}`}
@@ -35,9 +35,9 @@ const HeroProducts = () => {
             <img
               className="sm:hidden block mt-8"
               src={
-                service == "bomberil"
-                  ? "/productos/bomberil/Cabecera-Bomberil-Movil.webp"
-                  : "/productos/industrial/Cabecera-Industrial-Movil.webp"
+                service == 'bomberil'
+                  ? '/productos/bomberil/Cabecera-Bomberil-Movil.webp'
+                  : '/productos/industrial/Cabecera-Industrial-Movil.webp'
               }
               alt={`Hero de ${service}`}
               title={`Hero de ${service}`}
@@ -115,6 +115,6 @@ const HeroProducts = () => {
         </div>
       </div>
     </>
-  );
-};
-export default HeroProducts;
+  )
+}
+export default HeroProducts

@@ -1,6 +1,6 @@
-import ContentBlog from "./blogcontent/content.component"
-import HeroBlogContent from "./heroblogcontent/heroblogcontent.component"
-import { useRouter } from 'next/router'
+import ContentBlog from './blogcontent/content.component'
+import HeroBlogContent from './heroblogcontent/heroblogcontent.component'
+
 
 const BlogContent = () =>{
   

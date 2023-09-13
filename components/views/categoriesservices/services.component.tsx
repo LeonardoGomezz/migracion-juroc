@@ -1,5 +1,5 @@
-import HeroServices from "./heroservices/heroservices.component"
-import ProductsServices from "./productservices/productservices.component"
+import HeroServices from './heroservices/heroservices.component'
+import ProductsServices from './productservices/productservices.component'
 
 const Services = () =>{
   return(

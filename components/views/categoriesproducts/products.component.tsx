@@ -1,5 +1,5 @@
-import ProductsContent from "./contentproducts/contentproducts.component"
-import HeroProducts from "./heroproducts/heroproducts.component"
+import ProductsContent from './contentproducts/contentproducts.component'
+import HeroProducts from './heroproducts/heroproducts.component'
 
 const Products = () =>{
   return(
