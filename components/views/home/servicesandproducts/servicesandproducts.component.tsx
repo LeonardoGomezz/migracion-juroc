@@ -31,7 +31,7 @@ const ServiceAndProducts = () => {
               <div className="flex justify-center relative">
                 <img
                   className="bg-cover w-[144.07px] h-[308.96px]"
-                  src="/home/ServicesAndProducts/EXTINTOR.webp"
+                  src="/img/home/ServicesAndProducts/EXTINTOR.webp"
                   alt="extintores"
                   title="extintores"
                 />
@@ -53,7 +53,7 @@ const ServiceAndProducts = () => {
               <div className="flex justify-center relative  bottom-10">
                 <img
                   className="bg-cover w-[244.36px] h-[308.96px]  flex justify-center"
-                  src="/home/ServicesAndProducts/maquina -01 1.webp"
+                  src="/img/home/ServicesAndProducts/maquina -01 1.webp"
                   alt="redes-hidraulicas"
                   title="redes-hidraulicas"
                 />
@@ -74,7 +74,7 @@ const ServiceAndProducts = () => {
               <div className="flex justify-center relative py-12 sm:top-[-37px]">
                 <img
                   className="bg-cover w-[200.36px] h-[259.33px]  flex justify-center"
-                  src="/home/ServicesAndProducts/Group 51.webp"
+                  src="/img/home/ServicesAndProducts/Group 51.webp"
                   alt="equipos-seguridad"
                   title="equipos-seguridad"
                 />
@@ -97,7 +97,7 @@ const ServiceAndProducts = () => {
               <div className="flex justify-center relative py-12 sm:bottom-4">
                 <img
                   className="bg-cover w-[221.36px] h-[259.33px]  flex justify-center"
-                  src="/home/ServicesAndProducts/gabiente.webp"
+                  src="/img/home/ServicesAndProducts/gabiente.webp"
                   alt="gabinete-hidraulicas"
                   title="gabinete-hidraulicas"
                 />

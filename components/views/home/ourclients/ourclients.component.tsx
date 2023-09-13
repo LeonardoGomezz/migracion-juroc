@@ -34,7 +34,7 @@ const OurClientsComponent = () => {
           <div className="sm:hover:transition sm:hover:scale-125">
             <img
               className="bg-cover"
-              src="/home/ourclients/01.webp"
+              src="/img/home/ourclients/01.webp"
               alt="jaramillomora"
               title="jaramillomora"
             />
@@ -43,7 +43,7 @@ const OurClientsComponent = () => {
           <div className="sm:hover:transition sm:hover:scale-125">
             <img
               className="bg-cover"
-              src="/home/ourclients/02.webp"
+              src="/img/home/ourclients/02.webp"
               alt="jardin-plaza"
               title="jardin-plaza"
             />
@@ -52,7 +52,7 @@ const OurClientsComponent = () => {
           <div className="sm:hover:transition sm:hover:scale-125">
             <img
               className="bg-cover"
-              src="/home/ourclients/03.webp"
+              src="/img/home/ourclients/03.webp"
               alt="fundacion-carvajal"
               title="fundacion-carvajal"
             />
@@ -61,7 +61,7 @@ const OurClientsComponent = () => {
           <div className="sm:hover:transition sm:hover:scale-125">
             <img
               className="bg-cover"
-              src="/home/ourclients/04.webp"
+              src="/img/home/ourclients/04.webp"
               alt="naty-london"
               title="naty-london"
             />
@@ -70,7 +70,7 @@ const OurClientsComponent = () => {
           <div className="sm:hover:transition sm:hover:scale-125">
             <img
               className="bg-cover"
-              src="/home/ourclients/05.webp"
+              src="/img/home/ourclients/05.webp"
               alt="jm"
               title="jm"
             />
@@ -79,7 +79,7 @@ const OurClientsComponent = () => {
           <div className="sm:hover:transition sm:hover:scale-125">
             <img
               className="bg-cover"
-              src="/home/ourclients/06.webp"
+              src="/img/home/ourclients/06.webp"
               alt="evacol"
               title="evacol"
             />

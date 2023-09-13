@@ -6,7 +6,7 @@ const BlogContent = () =>{
   
   return(
     
-    <div className="bg-[url('/home/fondo.webp')] bg-cover bg-no-repeat">
+    <div className="bg-[url('/img/home/fondo.webp')] bg-cover bg-no-repeat">
       <HeroBlogContent/>
       <ContentBlog/>
     </div>

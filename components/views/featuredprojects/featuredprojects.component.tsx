@@ -35,7 +35,7 @@ const FeaturedProjects = () => {
             <div>
               <img
                 className="bg-cover"
-                src="/home/ourclients/02.png"
+                src="/img/home/ourclients/02.png"
                 alt="jardin-plaza"
                 title="jardin plaza"
               />
@@ -51,7 +51,7 @@ const FeaturedProjects = () => {
             <div>
               <img
                 className="bg-cover"
-                src="/home/ourclients/03.png"
+                src="/img/home/ourclients/03.png"
                 alt="fundacion-carvajal"
                 title="fundacion carvajal"
               />
@@ -67,7 +67,7 @@ const FeaturedProjects = () => {
             <div>
               <img
                 className="bg-cover"
-                src="/home/ourclients/04.png"
+                src="/img/home/ourclients/04.png"
                 alt="naty-london"
                 title="naty london"
               />
