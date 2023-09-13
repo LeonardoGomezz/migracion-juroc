@@ -12,7 +12,7 @@ const HeroServices = () => {
 
   useEffect(() => {
     setSetvice(servicescontent as string)
-  }, [asPath])
+  }, [asPath, servicescontent])
 
   return (
     <>

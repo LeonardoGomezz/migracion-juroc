@@ -14,7 +14,7 @@ const ServicesMobil = () => {
 
   useEffect(() => {
     setSetvice(servicescontent as string)
-  }, [asPath])
+  }, [asPath, servicescontent])
 
   return (
     <>

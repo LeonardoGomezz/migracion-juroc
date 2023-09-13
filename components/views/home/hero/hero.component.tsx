@@ -16,7 +16,7 @@ const HeroComponent = () => {
             <div className="lg:w-[722px]">
               <p
                 className="font-manrope not-italic lg:font-medium leading-4 sm:leading-8 text-xs font-semibold sm:text-2xl lg:w-[500px] xl:w-[570px] 
-                pt-4 lg:pt-24 xl:pt-8 lg:pl-48 xl:pl-64"
+                pt-4 lg:pt-40 xl:pt-20 lg:pl-48 xl:pl-64"
                 data-aos="fade-right"
               >
                 En Juroc protegemos tu vida y tus propiedades.

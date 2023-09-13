@@ -16,7 +16,7 @@ const ProductsMobil = () => {
 
   useEffect(() => {
     setSetvice(productscontent as string)
-  }, [asPath])
+  }, [asPath, productscontent])
 
   const [currentPage, setCurrentPage] = useState(0)
   const itemsPerPage = 7

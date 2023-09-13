@@ -12,9 +12,10 @@ const ProductsServices = () => {
   // console.log('id =>', query)
   // console.log('products =>', EngineeringProducts)
 
+
   useEffect(() => {
     setSetvice(servicescontent as string)
-  }, [asPath])
+  }, [asPath, servicescontent])
 
   return (
     <>
@@ -35,7 +36,7 @@ const ProductsServices = () => {
         <div className="hidden sm:block mt-8">
           <div className="flex flex-col justify-center items-center">
             {service === 'ingenieria'
-              ? EngineeringProducts.map((item) => (
+              && EngineeringProducts.map((item) => (
                 <div
                   className="lg:w-[950px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12"
                   key={item.title}
@@ -80,7 +81,7 @@ const ProductsServices = () => {
                   ))}
                 </div>
               ))
-              : ''}
+            }
           </div>
         </div>
 

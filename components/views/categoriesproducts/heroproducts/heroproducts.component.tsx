@@ -10,7 +10,7 @@ const HeroProducts = () => {
 
   useEffect(() => {
     setSetvice(productscontent as string)
-  }, [asPath])
+  }, [asPath, productscontent])
 
   const tarjetFilter = ProductsTarjets.filter(
     (tarjets) => service === tarjets.categorie
