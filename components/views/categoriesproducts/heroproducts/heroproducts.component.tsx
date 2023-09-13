@@ -26,8 +26,8 @@ const HeroProducts = () => {
               className="hidden sm:block"
               src={
                 service == 'bomberil'
-                  ? '/productos/bomberil/HeroBomberil.webp'
-                  : '/productos/industrial/HeroIndustrial.webp'
+                  ? '/img/productos/bomberil/HeroBomberil.webp'
+                  : '/img/productos/industrial/HeroIndustrial.webp'
               }
               alt={`Hero de ${service}`}
               title={`Hero de ${service}`}
@@ -36,8 +36,8 @@ const HeroProducts = () => {
               className="sm:hidden block mt-8"
               src={
                 service == 'bomberil'
-                  ? '/productos/bomberil/Cabecera-Bomberil-Movil.webp'
-                  : '/productos/industrial/Cabecera-Industrial-Movil.webp'
+                  ? '/img/productos/bomberil/Cabecera-Bomberil-Movil.webp'
+                  : '/img/productos/industrial/Cabecera-Industrial-Movil.webp'
               }
               alt={`Hero de ${service}`}
               title={`Hero de ${service}`}

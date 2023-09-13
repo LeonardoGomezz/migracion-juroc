@@ -1,38 +1,38 @@
 export const CLIENTS = [
   {
     'id': '01',
-    'cliente': '/home/ourclients/01.webp',
+    'cliente': '/img/home/ourclients/01.webp',
     'alt': 'jaramillo-mora',
     'title': 'jaramillo mora'
     
   },
   {
     'id': '02',
-    'cliente': '/home/ourclients/02.webp',
+    'cliente': '/img/home/ourclients/02.webp',
     'alt': 'jardin-plaza',
     'title': 'jardin plaza'
   },
   {
     'id': '03',
-    'cliente': '/home/ourclients/03.webp',
+    'cliente': '/img/home/ourclients/03.webp',
     'alt': 'fundacion-carvajal',
     'title': 'fundacion carvajal'
   },
   {
     'id': '04',
-    'cliente': '/home/ourclients/04.webp',
+    'cliente': '/img/home/ourclients/04.webp',
     'alt': 'naty-london',
     'title': 'naty london'
   },
   {
     'id': '05',
-    'cliente': '/home/ourclients/05.webp',
+    'cliente': '/img/home/ourclients/05.webp',
     'alt': 'inmobiliaria-JM',
     'title': 'inmobiliaria JM'
   },
   {
     'id': '06',
-    'cliente': '/home/ourclients/06.webp',
+    'cliente': '/img/home/ourclients/06.webp',
     'alt': 'evacol',
     'title': 'evacol'
   }
@@ -41,7 +41,7 @@ export const CLIENTS = [
 export const HOME = [
   {
     
-    'image': '/home/lorem.webp',
+    'image': '/img/home/lorem.webp',
     'alt': 'lorem',
     'imageTitle': 'lorem',
     'title': 'Servicio o producto prestado',
@@ -50,7 +50,7 @@ export const HOME = [
   },
   {
     
-    'image': '/home/lorem.webp',
+    'image': '/img/home/lorem.webp',
     'alt': 'lorem',
     'imageTitle': 'lorem',
     'title': 'Servicio o producto prestado',
@@ -59,7 +59,7 @@ export const HOME = [
   },
   {
     
-    'image': '/home/lorem.webp',
+    'image': '/img/home/lorem.webp',
     'alt': 'lorem',
     'imageTitle': 'lorem',
     'title': 'Servicio o producto prestado',
@@ -68,7 +68,7 @@ export const HOME = [
   },
   {
     
-    'image': '/home/lorem.webp',
+    'image': '/img/home/lorem.webp',
     'alt': 'lorem',
     'imageTitle': 'lorem',
     'title': 'Servicio o producto prestado',
@@ -77,7 +77,7 @@ export const HOME = [
   },
   {
     
-    'image': '/home/lorem.webp',
+    'image': '/img/home/lorem.webp',
     'alt': 'lorem',
     'imageTitle': 'lorem',
     'title': 'Servicio o producto prestado',
@@ -86,7 +86,7 @@ export const HOME = [
   },
   {
     
-    'image': '/home/lorem.webp',
+    'image': '/img/home/lorem.webp',
     'alt': 'lorem',
     'imageTitle': 'lorem',
     'title': 'Servicio o producto prestado',
@@ -98,7 +98,7 @@ export const HOME = [
 export const otherClients = [
   {
     'id': '01',
-    'cliente': '/home/ourclients/02.webp',
+    'cliente': '/img/home/ourclients/02.webp',
     'alt': 'jaramillo-mora',
     'title': 'jaramillo mora'
 
@@ -106,14 +106,14 @@ export const otherClients = [
   },
   {
     'id': '02',
-    'cliente': '/home/ourclients/03.webp',
+    'cliente': '/img/home/ourclients/03.webp',
     'alt': 'jardin-plaza',
     'title': 'jardin plaza'
     
   },
   {
     'id': '03',
-    'cliente': '/home/ourclients/04.webp',
+    'cliente': '/img/home/ourclients/04.webp',
     'alt': 'naty-london',
     'title': 'naty london'
     

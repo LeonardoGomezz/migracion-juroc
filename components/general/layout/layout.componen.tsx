@@ -5,7 +5,7 @@ import Footer from '../footer/foooter.component'
 const Layout = ({children}) => {
   return(
     <>
-      <div className="bg-[url('/img/fondo.jpeg')] bg-cover">
+      <div className="bg-[url('/img/fondo.webp')] bg-cover">
         <Header/>
         {children}
         <Footer/>

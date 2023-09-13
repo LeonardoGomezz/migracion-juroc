@@ -10,6 +10,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'manrope': ['Manrope', 'sans-serif'],
+      'PlayfairDisplay': ['Playfair Display', 'serif']
+    }
   },
   plugins: [],
 }

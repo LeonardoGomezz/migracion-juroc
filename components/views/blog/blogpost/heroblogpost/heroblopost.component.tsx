@@ -6,7 +6,7 @@ const HeroBlogPost = () => {
           <div className="justify-center items-center mx-16 hidden sm:block">
             <img
               className="bg-cover"
-              src="/blog/blogpost/cabeceraBlog.webp"
+              src="/img/blog/blogpost/cabeceraBlog.webp"
               data-aos="fade-down"
               alt="cabecera-tarjetas"
               title="cabecera-tarjetas"
@@ -16,7 +16,7 @@ const HeroBlogPost = () => {
           <div className="flex justify-center items-center sm:hidden">
             <img
               className=""
-              src="/blog/blogpost/cabeceramovil.webp"
+              src="/img/blog/blogpost/cabeceramovil.webp"
               alt="cabecera-tarjetas"
               title="cabecera-tarjetas"
             />

@@ -20,14 +20,14 @@ const HeroServices = () => {
         <img
           data-aos="fade-down"
           className="bg-cover w-[600px] h-[500px] sm:w-[1000px] sm:h-[550px] hidden sm:block"
-          src="/servicios/ingenieria/Cabecera-Ingenieria.webp"
+          src="/img/servicios/ingenieria/Cabecera-Ingenieria.webp"
           alt="cabecera-ingenieria"
           title="portada ingenieria"
         />
         <img
           data-aos="fade-down"
           className="block sm:hidden"
-          src="/servicios/ingenieria/Cabecera-Ingenieria-Movil.webp"
+          src="/img/servicios/ingenieria/Cabecera-Ingenieria-Movil.webp"
           alt="cabecera-ingenieria-movil"
           title="portada ingenieria"
         />

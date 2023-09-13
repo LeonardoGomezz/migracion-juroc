@@ -40,7 +40,7 @@ const Experiences = () => {
             <div className="flex items-center lg:mr-8">
               <img
                 className="w-32 h-32 sm:w-[200px] sm:h-[200px] lg:w-[400px] lg:h-[400px]  bg-cover"
-                src="/home/Experiencia.webp"
+                src="/img/home/Experiencia.webp"
                 alt="años-experiencia"
                 title="años-experiencia"
               />

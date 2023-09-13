@@ -6,25 +6,25 @@
   },
   {
     "title": "Servicios",
-    "ruta": "/servicios",
+    "ruta": "#",
     "submenu":[
       {
         "title":"Servicios de interés",
-        "ruta":"/interesting-service/",
+        "ruta":"#",
         "submenu": []
         
       },
       {
         "title":"Por segmento",
-        "ruta":"/bysegment/",
+        "ruta":"#",
         "submenu": [
           {
             "title": "Linea hidráulica",
-            "ruta":"/bysegment/lineHidraulica"
+            "ruta":"#"
           },
           {
             "title": "Ingeniería",
-            "ruta": "/bysegment/engineering"
+            "ruta": "/servicespage/ingenieria"
           }
         ]
         
@@ -33,29 +33,29 @@
   },
   {
     "title": "Productos",
-    "ruta": "/products",
+    "ruta": "#",
     "submenu":[
       {
         "title":"Productos de interés",
-        "ruta":"/interesting-products/",
+        "ruta":"#",
         "submenu": []
         
       },
       {
         "title":"Por productos",
-        "ruta":"/Byproducts/",
+        "ruta":"#",
         "submenu": [
           {
             "title": "Líneas",
-            "ruta":"/byproduct/lines/"
+            "ruta":"#"
           },
           {
             "title": "Industrial",
-            "ruta": "/Byproducts/industrial"
+            "ruta": "/productscontentpage/industrial"
           },
           {
             "title": "Bomberil",
-            "ruta": "/Byproducts/bomberil"
+            "ruta": "/productscontentpage/bomberil"
           }
 
         ]
@@ -65,7 +65,7 @@
   },
   {
     "title": "Blog",
-    "ruta": "/blogs",
+    "ruta": "/blogpostpage",
     "submenu":[] 
   }
 ]
