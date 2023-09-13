@@ -1,11 +1,15 @@
 import React from 'react'
-import Navbar from '../navbar/navbar.component'
+import Header from './header/header.component'
+import Footer from '../footer/foooter.component'
 
 const Layout = ({children}) => {
   return(
     <>
-      <Navbar/>
-      {children}
+      <div className="bg-[url('/img/fondo.jpeg')] bg-cover">
+        <Header/>
+        {children}
+        <Footer/>
+      </div>
     </>
   )
 }
