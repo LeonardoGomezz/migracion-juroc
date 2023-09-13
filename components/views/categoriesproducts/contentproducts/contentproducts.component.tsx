@@ -1,11 +1,10 @@
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
-import {
-  bomberilProducts,
-  industrailProducts,
-} from '../../../../DataInfo/data.component'
+import {bomberilProducts, industrailProducts} from '../../../../DataInfo/data.component'
 import ProductsMobil from './productsmobil/productsmobil.component'
 import FeaturedProjects from '../../featuredprojects/featuredprojects.component'
+
+
 
 const ProductsContent = () => {
   const { query, asPath } = useRouter()
@@ -14,7 +13,7 @@ const ProductsContent = () => {
 
   useEffect(() => {
     setSetvice(productscontent as string)
-  }, [asPath])
+  }, [asPath, productscontent])
 
   // console.log(tarjetFilter)
 
@@ -128,7 +127,7 @@ const ProductsContent = () => {
           <ProductsMobil />
         </div>
         <div>
-          <FeaturedProjects />
+          <FeaturedProjects/>
         </div>
       </div>
     </>

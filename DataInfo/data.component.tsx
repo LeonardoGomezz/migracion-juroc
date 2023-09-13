@@ -122,48 +122,48 @@ export const EngineeringProducts = [
         title: 'redes contra incendios',
         description: 'Diseño e instalacion'  
       },
-       {
-         name:'Bombas contra incendios',
-         img: '/servicios/ingenieria/Agentes-Limpios.webp',
-         alt:'bombas-contra-incendios',
-         title: 'bombas contra incendios',
-         description: 'Bombas orizontales y verticales'  
-       },
-       {
-         name:'Tuberias ranuradas',
-         img: '/servicios/ingenieria/Tuberias-Ranuradas.webp',
-         alt:'bombas-contra-incendios',
-         title: 'bombas contra incendios',
-         description: 'Esenciales para la union de tuberías y válvulas'  
-       },
-       {
-         name:'Accesorios Splinkers',
-         img: '/servicios/ingenieria/Accesorios-Splinkers.webp',
-         alt:'accesorios-splinkers',
-         title: 'accesorios splinkers',
-         description: 'Sistema de rociadores automáticos'  
-       },
-       {
-         name:'Válvulas',
-         img: '/servicios/ingenieria/vavulas.webp',
-         alt:'valvulas',
-         title: 'accesorios splinkers',
-         description: 'Controlan el paso del fluido en los sistemas contra incendios'  
-       },
-       {
-         name:'Gabinetes contra incendios',
-         img: '/servicios/ingenieria/Gabinete.webp',
-         alt:'Gabinetes',
-         title: 'gabinetes contra incendios',
-         description: 'Elementos básicos para reacción a las fases iniciales de un incendio'  
-       },
-       {
-         name:'Mangueras',
-         img: '/servicios/ingenieria/Mangueras.webp',
-         alt:'mangueras',
-         title: 'mangueras',
-         description: 'Transporte de agua para la extinción de incendios'  
-       }
+      {
+        name:'Bombas contra incendios',
+        img: '/servicios/ingenieria/Agentes-Limpios.webp',
+        alt:'bombas-contra-incendios',
+        title: 'bombas contra incendios',
+        description: 'Bombas orizontales y verticales'  
+      },
+      {
+        name:'Tuberias ranuradas',
+        img: '/servicios/ingenieria/Tuberias-Ranuradas.webp',
+        alt:'bombas-contra-incendios',
+        title: 'bombas contra incendios',
+        description: 'Esenciales para la union de tuberías y válvulas'  
+      },
+      {
+        name:'Accesorios Splinkers',
+        img: '/servicios/ingenieria/Accesorios-Splinkers.webp',
+        alt:'accesorios-splinkers',
+        title: 'accesorios splinkers',
+        description: 'Sistema de rociadores automáticos'  
+      },
+      {
+        name:'Válvulas',
+        img: '/servicios/ingenieria/vavulas.webp',
+        alt:'valvulas',
+        title: 'accesorios splinkers',
+        description: 'Controlan el paso del fluido en los sistemas contra incendios'  
+      },
+      {
+        name:'Gabinetes contra incendios',
+        img: '/servicios/ingenieria/Gabinete.webp',
+        alt:'Gabinetes',
+        title: 'gabinetes contra incendios',
+        description: 'Elementos básicos para reacción a las fases iniciales de un incendio'  
+      },
+      {
+        name:'Mangueras',
+        img: '/servicios/ingenieria/Mangueras.webp',
+        alt:'mangueras',
+        title: 'mangueras',
+        description: 'Transporte de agua para la extinción de incendios'  
+      }
     ]
   }
 ]

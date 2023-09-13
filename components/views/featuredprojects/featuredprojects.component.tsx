@@ -1,27 +1,28 @@
-// import { Swiper, SwiperSlide } from 'swiper/react'
-// import { Navigation, Pagination, Autoplay } from 'swiper/modules'
-// import 'swiper/css'
-// import { otherClients } from '../../../DataInfo/slider.component'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination, Autoplay } from 'swiper/modules'
+import 'swiper/css'
+import { otherClients } from '../../../DataInfo/slider.component'
 
 const FeaturedProjects = () => {
-  // const ImageContent = otherClients.map((item) => {
-  //   return (
-  //     <SwiperSlide key={item.id}>
-  //       <div className="flex flex-col justify-center items-center h-56 align-baseline content-center mx-4">
-  //         <img
-  //           className="object-bottom"
-  //           src={item.cliente}
-  //           alt={item.alt}
-  //           title={item.title}
-  //         />
-  //       </div>
-  //     </SwiperSlide>
-  //   )
-  // })
+
+  const ImageContent = otherClients.map((item) => {
+    return (
+      <SwiperSlide key={item.id}>
+        <div className="flex flex-col justify-center items-center h-56 align-baseline content-center mx-4">
+          <img
+            className="object-bottom"
+            src={item.cliente}
+            alt={item.alt}
+            title={item.title}
+          />
+        </div>
+      </SwiperSlide>
+    )
+  })
 
   return (
     <>
-      <div className="mt-36">
+      <div className="mt-36 bg-amber-400">
         <h2
           data-aos="fade-down"
           className="text-center font-PlayfairDisplay lg:leading-normal lg:font-semibold not-italic lg:text-6xl text-xl font-bold leading-normal"
@@ -77,9 +78,9 @@ const FeaturedProjects = () => {
               </p>
             </div>
           </div>
+          
         </div>
-
-        {/* <div className="pt-8 lg:hidden">
+        <div className="pt-20 lg:hidden bg-red-500">
           <Swiper
             slidesPerView={1}
             loop={true}
@@ -91,12 +92,13 @@ const FeaturedProjects = () => {
             }}
           >
             {ImageContent}
-
           </Swiper>
-          <div className="text-center font-manrope text-xs not-italic font-bold leading-4">
+          
+          <div className="bg-black text-center font-manrope text-xs not-italic font-bold leading-4">
             <p>Productos certificados</p>
           </div>
-        </div> */}
+        </div> 
+        
       </div>
     </>
   )

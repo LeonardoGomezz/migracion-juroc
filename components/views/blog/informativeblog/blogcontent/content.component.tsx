@@ -9,7 +9,7 @@ const ContentBlog = () => {
 
   useEffect(() => {
     setSetvice(blogcontent as string)
-  }, [asPath])
+  }, [asPath, blogcontent])
 
   const blogFilter = BlogContent.filter((info) => service === info.id)
   // console.log("este es =>", blogFilter)
