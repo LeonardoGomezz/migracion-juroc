@@ -5,3 +5,28 @@
 html {
   scroll-behavior: smooth;
 }
+
+.swiper-pagination-bullet-active {
+  background: white !important;
+  width: 30px;
+}
+
+.swiper-button-prev:after {
+  content: 'next';
+  color: white;
+}
+
+.swiper-button-next:after{
+  content: 'next';
+  color: white;
+}
+
+.swiper-horizontal {
+  padding-bottom: 50px !important;
+
+}
+
+
+/* * {
+  border:1px solid black;
+}  */
