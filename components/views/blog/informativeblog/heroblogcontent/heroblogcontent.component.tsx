@@ -21,7 +21,7 @@ const HeroBlogContent = () => {
           <div key={item.title}>
             <div className="flex justify-center " data-aos="fade-down ">
               <img
-                className="w-10/12 bg-cover"
+                className="w-8/12 bg-cover"
                 src={item.content.cabecera}
                 alt={item.content.altCabecera}
                 title={item.content.titleCabecera}

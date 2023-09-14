@@ -5,7 +5,7 @@ import ProductsServices from './productservices/productservices.component'
 const Services = () =>{
   return(
     
-    <div className="bg-[url('/img/home/fondo.webp')] bg-cover bg-no-repeat text-white">
+    <div className="bg-[url('/img/2x.webp')] lg:bg-[url('/img/home/fondo.webp')] bg-cover bg-no-repeat text-white">
       <Layout>
         <HeroServices/>
         <ProductsServices/>

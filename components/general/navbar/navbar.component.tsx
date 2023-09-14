@@ -107,7 +107,7 @@ const Navbar = () => {
         </h1>
       </div>
       <nav className="w-full top-0 left-0 right-0 z-50 bg-gradient-to-b from-[rgba(73,80,152,0.50)] via-transparent to-[rgba(71,175,131,0.14)] lg:h-[100px]">
-        <div className=" sm:flex sm:items-center sm:justify-between sm:mx-28 lg:mx-60 sm:h-36 sm:shrink-0 ">
+        <div className=" sm:flex sm:items-baseline sm:justify-between sm:mx-28 lg:mx-60 sm:h-36 sm:shrink-0 ">
           <div className="flex mx-4 sm:mx-0 justify-between items-center">
             <Link title="inicio" href="/">
               <img

@@ -156,7 +156,7 @@ export default function Footer() {
                     >
                       <img
                         className="sm:w-10 sm:h-10"
-                        src="/img/facebook.svg"
+                        src="/img/footer/icon _facebook_.png"
                         alt="facebook"
                         title="facebook"
                       />
@@ -170,7 +170,7 @@ export default function Footer() {
                     >
                       <img
                         className="sm:w-10 sm:h-10"
-                        src="/img/🦆 icon _instagram_.svg"
+                        src="/img/footer/icon _instagran_.png"
                         alt="instagram"
                         title="instagram"
                       />

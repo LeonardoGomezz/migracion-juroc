@@ -4,7 +4,7 @@ import HeroProducts from './heroproducts/heroproducts.component'
 
 const Products = () =>{
   return(
-    <div className="bg-[url('/img/home/fondo.webp')] bg-cover bg-no-repeat text-white">
+    <div className="bg-[url('/img/2x.webp')] lg:bg-[url('/img/home/fondo.webp')] bg-cover bg-no-repeat text-white">
       <Layout>
         <HeroProducts/>
         <ProductsContent/>

@@ -1,0 +1,133 @@
+.calendar {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.generalCalendar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.general {
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    background-color: rgba(14, 22, 35, 0.55);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+    gap: 50px;
+    padding: 40px;
+}
+
+.title {
+    text-align: center;
+
+}
+
+.title h3 {
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.hourGeneral {
+    height: 280px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px 0 0;
+}
+
+.hour {
+    display: flex;
+    gap: 10px;
+}
+
+.hour input {
+    color: #ffffff;
+    border: none;
+    background-color: transparent;
+}
+
+.hour input:focus {
+    background:#f08312;
+}
+
+.hour input::placeholder {
+    color: #ffffff;
+}
+
+.hour input:hover {
+    cursor: pointer;
+    color: #58BDC9;
+}
+
+.hour input:active {
+    color: #58BDC9;
+}
+
+.selected{
+    color: #ffffff;
+}
+
+.availability {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.availability .d {
+    background-color: #219dbb;
+    width: 20px;
+    height: 20px;
+    display: flex;
+
+}
+
+.availability .n {
+    background-color: #c0c0c0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+
+}
+
+.availability p {
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+}
+
+
+.hourGeneral::-webkit-scrollbar {
+    display: initial;
+    width: 1px !important;
+}
+
+.hourGeneral::-webkit-scrollbar-track {
+    background-color: #f08312 !important;
+    border-radius: 10px !important;
+}
+
+.hourGeneral::-webkit-scrollbar-thumb {
+    border-radius: 10px !important;
+    background: #219dbb !important;
+}
+
+@media (max-width: 767px) {
+    .general {
+        flex-direction: column;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .general {
+        padding: 20px;
+    }
+}

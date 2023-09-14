@@ -71,14 +71,14 @@ const ServiceAndProducts = () => {
    border-4 hover:duration-500 hover:bg-transparent hover:filter-none  border-indigo-800 rounded-[20px]"
           >
             <Link title="productos" href="productscontentpage/industrial#products">
-              <div className="flex justify-center relative py-12 sm:top-[-37px]">
+              <div className="flex justify-center relative py-12 sm:top-[17px]">
                 <img
-                  className="bg-cover w-[200.36px] h-[259.33px]  flex justify-center"
-                  src="/img/home/ServicesAndProducts/Group 51.webp"
+                  className="bg-cover w-[200.36px] h-[190px]  flex justify-center"
+                  src="/img/home/ServicesAndProducts/equipo de seguridad industrial.webp"
                   alt="equipos-seguridad"
                   title="equipos-seguridad"
                 />
-                <div className=" w-auto absolute bottom-3 sm:bottom-[-27px] ">
+                <div className=" w-auto absolute bottom-3 sm:bottom-[-37px] ">
                   <h3 className="font-PlayfairDisplay not-italic font-semibold leading-4 sm:leading-8 text-base sm:text-2xl ">
                     Equipos de
                     <br />
