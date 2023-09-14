@@ -6,11 +6,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-oauth/google": "^0.11.1",
     "aos": "^2.3.4",
+    "axios": "^1.5.0",
+    "luxon": "^3.4.3",
+    "moment": "^2.29.4",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-flatpickr": "^3.10.13",
+    "react-ga4": "^2.1.0",
     "react-icons": "^4.11.0",
     "react-paginate": "^8.2.0",
     "resend": "^1.0.0",

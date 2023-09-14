@@ -28,40 +28,42 @@ const Blog = () => {
             className="mx-4 w-10/12 sm:w-8/12 lg:w-6/12"
             key={content.tarjetTitle}
           >
-            <div
-              className=" gap-5 pt-5 px-5 pb-5 bg-neutral-700 bg-opacity-50 rounded-[50px] shadow-[0px_1px_20px_1px_#5EC398] border-4 border-emerald-400
+            <Link href={content.url} title={content.urlTitle}>
+              <div
+                className=" gap-5 pt-5 px-5 pb-5 bg-neutral-700 bg-opacity-50 rounded-[50px] shadow-[0px_1px_20px_1px_#5EC398] border-4 border-emerald-400
     h-auto w-auto mx-9 sm:mx-0 sm:hover:transition lg:hover:scale-110 lg:hover:bg-transparent"
-            >
-              <div className="flex flex-col items-center sm:flex xl:flex-row gap-5">
-                <div className="flex justify-center w-full">
-                  <img
-                    className="bg-cover w-40 h-40 sm:w-56 lg:w-[500px] lg:h-60 rounded-lg"
-                    src={content.img}
-                    alt="tarjeta-blog"
-                    title="tarjeta-blog"
-                  />
-                </div>
-                <div className="flex flex-col gap-6 pr-7">
-                  <div className="">
-                    <h2 className="font-PlayfairDisplay text-center sm:text-start not-italic text-base sm:text-4xl font-semibold sm:font-bold leading-4 sm:leading-10">
-                      {content.tarjetTitle}
-                    </h2>
+              >
+                <div className="flex flex-col items-center sm:flex xl:flex-row gap-5">
+                  <div className="flex justify-center w-full">
+                    <img
+                      className="bg-cover w-40 h-40 sm:w-56 lg:w-[500px] lg:h-60 rounded-lg"
+                      src={content.img}
+                      alt="tarjeta-blog"
+                      title="tarjeta-blog"
+                    />
                   </div>
-                  <div>
-                    <p className="font-manrope not-italic font-medium sm:font-normal leading-5 sm:leading-6  text-xs sm:text-base">
-                      {content.text}
-                    </p>
-                  </div>
-                  <div className="w-6/12">
-                    <p className="font-manrope not-italic sm:font-bold sm:leading-7 text-xs sm:text-base hover:underline cursor-pointer">
-                      <a title="entradas-blog" href={content.url}>
+                  <div className="flex flex-col gap-6 pr-7">
+                    <div className="">
+                      <h2 className="font-PlayfairDisplay text-center sm:text-start not-italic text-base sm:text-4xl font-semibold sm:font-bold leading-4 sm:leading-10">
+                        {content.tarjetTitle}
+                      </h2>
+                    </div>
+                    <div>
+                      <p className="font-manrope not-italic font-medium sm:font-normal leading-5 sm:leading-6  text-xs sm:text-base">
+                        {content.text}
+                      </p>
+                    </div>
+                    <div className="w-6/12">
+                      <p className="font-manrope not-italic sm:font-bold sm:leading-7 text-xs sm:text-base hover:underline cursor-pointer">
+                        <a title="entradas-blog" href={content.url}>
                         Leer más ➜
-                      </a>
-                    </p>
+                        </a>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         ))}
 

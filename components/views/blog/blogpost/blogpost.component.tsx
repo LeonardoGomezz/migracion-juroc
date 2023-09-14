@@ -5,7 +5,7 @@ import Publications from './publications/publications.component'
 const BlogPost = () =>{
   return(
     
-    <div className="bg-[url('/img/home/fondo.webp')] bg-cover bg-no-repeat">
+    <div className="bg-[url('/img/2x.webp')] lg:bg-[url('/img/home/fondo.webp')] bg-cover bg-no-repeat">
       <Layout>
         <HeroBlogPost/>
         <Publications/>

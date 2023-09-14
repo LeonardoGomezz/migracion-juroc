@@ -16,7 +16,7 @@ const HeroBlogPost = () => {
           <div className="flex justify-center items-center sm:hidden">
             <img
               className=""
-              src="/img/blog/blogpost/cabeceramovil.webp"
+              src="/img/blog/blogpost/cabecera-nuestro-blog-mobil.webp"
               alt="cabecera-tarjetas"
               title="cabecera-tarjetas"
             />
