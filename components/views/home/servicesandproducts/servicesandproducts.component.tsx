@@ -27,7 +27,7 @@ const ServiceAndProducts = () => {
             className="bg-neutral-700 bg-opacity-50 shadow-[0px_10px_20px_0px_#495098] brightness-75  
   border-4 hover:bg-transparent hover:duration-500 hover:filter-none  border-indigo-800 rounded-[20px]"
           >
-            <Link title="productos" href="/productos/industrial#products">
+            <Link title="productos" href="/productscontentpage/industrial#products">
               <div className="flex justify-center relative">
                 <img
                   className="bg-cover w-[144.07px] h-[308.96px]"
@@ -49,7 +49,7 @@ const ServiceAndProducts = () => {
             className="bg-neutral-700 bg-opacity-50  shadow-[0px_10px_20px_0px_#495098] brightness-75  
   border-4 hover:duration-500 hover:bg-transparent hover:filter-none  border-indigo-800 rounded-[20px] "
           >
-            <Link title="servicios" href="#">
+            <Link title="servicios" href="/servicespage/ingenieria#servicios">
               <div className="flex justify-center relative  bottom-10">
                 <img
                   className="bg-cover w-[244.36px] h-[308.96px]  flex justify-center"
@@ -70,7 +70,7 @@ const ServiceAndProducts = () => {
             className="bg-neutral-700 bg-opacity-50 shadow-[0px_10px_20px_0px_#495098] brightness-75
    border-4 hover:duration-500 hover:bg-transparent hover:filter-none  border-indigo-800 rounded-[20px]"
           >
-            <Link title="productos" href="#">
+            <Link title="productos" href="productscontentpage/industrial#products">
               <div className="flex justify-center relative py-12 sm:top-[-37px]">
                 <img
                   className="bg-cover w-[200.36px] h-[259.33px]  flex justify-center"
@@ -93,7 +93,7 @@ const ServiceAndProducts = () => {
             className="bg-neutral-700 bg-opacity-50 shadow-[0px_10px_20px_0px_#495098] brightness-75 border-4  
   hover:duration-500 hover:bg-transparent hover:filter-none border-indigo-800 rounded-[20px]  "
           >
-            <Link title="servicios" href="#">
+            <Link title="servicios" href="/servicespage/ingenieria#servicios">
               <div className="flex justify-center relative py-12 sm:bottom-4">
                 <img
                   className="bg-cover w-[221.36px] h-[259.33px]  flex justify-center"
