@@ -430,3 +430,127 @@ export const bomberilProducts = [
     ]
   }
 ]
+
+export const submenu = [
+  {
+    id: 1,
+    title: 'Servicios',
+    subtitle: 'Linea hidraulica',
+    categorie: 'Ingenieria',
+    url: '/servicespage/ingenieria',
+  },
+  {
+    id: 2,
+    title: 'Productos',
+    subtitle: 'Lineas',
+    categorie: 'Industrial',
+    url: '/productscontentpage/industrial',
+    categorie2: 'Bomberil',
+    url2: '/productscontentpage/bomberil',
+  },
+]
+
+export const submenu2 = [
+  {
+    secondaryContent: [
+      {
+        title: 'Lineas',
+        url: '/#',
+      },
+      {
+        title: 'industrial',
+        url: '/productos/industrial',
+      },
+      {
+        title: 'bomberil',
+        url: '/productos/bomberil',
+      },
+    ],
+  },
+  {
+    secondaryContent: [
+      {
+        title: 'Linea hidraulica',
+        url: '/#',
+      },
+      {
+        title: 'Ingenieria',
+        url: '/servicios/ingenieria',
+      },
+    ],
+  },
+]
+
+export const servicios = [
+  {
+    title: 'Servicios',
+    content: [
+      {
+        id: 0,
+        title: 'Servicios de interés',
+        url: '/#',
+      },
+      {
+        id: 1,
+        title: 'Por segmento ->',
+        url: '/#',
+      },
+    ],
+  },
+]
+
+export const serviciosCategorias = [
+
+    
+  {
+    id: 0,
+    title: 'Linea hidraulica ▼',
+    url: '',
+  },
+  {
+    id: 1,
+    title: 'Ingenieria',
+    url: '/servicespage/ingenieria',
+  },
+    
+  
+]
+
+export const productos = [
+  {
+    title: 'Productos',
+    content: [
+      {
+        id: 0,
+        title: 'Productos de interés',
+        url: '/#',
+      },
+      {
+        id: 1,
+        title: 'Por lineas ->',
+        url: '/#',
+      },
+    ],
+  },
+]
+
+export const productosCategorias = [
+  
+  {
+    id: 0,
+    title: 'Lineas ▼',
+    url: '/#',
+  },
+  {
+    id: 1,
+    title: 'industrial',
+    url: '/productscontentpage/industrial',
+  },
+  {
+    id: 2,
+    title: 'bomberil',
+    url: '/productscontentpage/bomberil',
+  },
+
+  
+]

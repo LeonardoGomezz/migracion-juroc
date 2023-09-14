@@ -1,48 +1,57 @@
+
+
 const HeroComponent = () => {
   return (
     <>
-      <div className="w-full text-white text-center lg:text-start z-10 ">
-        <div className="w-full flex flex-col-reverse lg:flex lg:flex-row">
-          <div className="lg:w-[50%] flex flex-col items-center">
-            <p
-              className="font-PlayfairDisplay not-italic font-bold  lg:leading-none  leading-5 text-lg sm:text-3xl lg:text-5xl flex mx-auto 
-              drop-shadow-[0px_3px_1px_rgba(0,0,0,0.95)] sm:drop-shadow-[0px_5px_1px_rgba(0,0,0,0.95)] w-[237px] h-[80px] sm:w-[537px] sm:h-[140px] 
-              lg:w-[550px] lg:h-[230px] xl:w-[722px] xl:h-[300px] lg:pt-16 lg:pl-20 xl:pl-64"
-              data-aos="fade-right"
-            >
-              Juroc es el respaldo que necesitas para la protección contra
-              incendios y seguridad industrial.
-            </p>
-            <div className="lg:w-[722px]">
+      <div className="w-full text-white text-center lg:text-start z-10">
+        <div className="flex flex-col-reverse items-center  lg:grid lg:grid-cols-2">
+          <div className="lg:mt-10 lg:ml-52">
+            <div className=" ">
               <p
-                className="font-manrope not-italic lg:font-medium leading-4 sm:leading-8 text-xs font-semibold sm:text-2xl lg:w-[500px] xl:w-[570px] 
-                pt-4 lg:pt-40 xl:pt-20 lg:pl-48 xl:pl-64"
+                className="font-PlayfairDisplay not-italic font-bold  lg:leading-none  leading-5 text-lg sm:text-3xl lg:text-5xl 
+      drop-shadow-[0px_3px_1px_rgba(0,0,0,0.95)] sm:drop-shadow-[0px_5px_1px_rgba(0,0,0,0.95)] mx-14 lg:mx-0"
                 data-aos="fade-right"
               >
-                En Juroc protegemos tu vida y tus propiedades.
+                Juroc es el respaldo que necesitas para la protección contra
+                incendios y seguridad industrial.
               </p>
-              {/* <img
-                className=" sm:mt-[-39px] sm:ml-[659px] lg:ml-[380px] xl:ml-[460px] lg:mt-[-38px] w-[20px] h-[20px]  sm:w-[42px] sm:h-[40px]"
-                src="/img/home/hero/fuego.webp"
-                alt="fuego"
-                title="fire-icon"
-              /> */}
             </div>
 
-            <button
-              className="lg:ml-[-130px] xl:ml-[6px] lg:mt-[41px] sm:mt-6 rounded-md bg-[#495098] w-auto h-10  sm:h-16 sm:w-auto px-2 
-              overflow-hidden font-PlayfairDisplay font-bold not-italic text-base sm:text-2xl sm:font-bold 
-              shadow-[0px_4px_20px_0px_#47AF83] hover:scale-125 transform transition"
-            >
-              <a title="agendar-cita" className="mx-4" href="#">
-                Agenda una cita
-              </a>
-            </button>
+            <div className="my-4 flex justify-center   lg:justify-start lg:my-8 ">
+              <div className="">
+                <p
+                  className="flex font-manrope not-italic lg:font-medium leading-4 sm:leading-8 text-xs font-semibold sm:text-2xl relative"
+                  data-aos="fade-right"
+                >
+                  En Juroc protegemos tu vida
+                  <br />
+                  y tus propiedades.
+                  <img
+                    className=" w-7 h-7 sm:w-11 sm:h-10 absolute top-3 left-[135px] sm:top-7 sm:left-72 lg:top-7 lg:left-52"
+                    src="/img/home/hero/fuego.webp"
+                    alt="fuego"
+                    title="fire-icon"
+                  />
+                </p>
+              </div>
+            </div>
+
+            <div data-aos="fade-right">
+              <button
+                className="group relative rounded-md bg-[#495098] w-auto h-10  sm:h-16 sm:w-auto px-2 
+       overflow-hidden font-PlayfairDisplay font-bold not-italic text-base sm:text-2xl sm:font-bold 
+       shadow-[0px_4px_20px_0px_#47AF83] hover:scale-125 transform transition"
+              >
+                <a title="agendar-cita" className="mx-4" href="#AgendaInicio">
+                  Agenda una cita
+                </a>
+              </button>
+            </div>
           </div>
 
-          <div className="lg:w-[50%]">
+          <div className="lg:mr-28 sm:mt-1 mt-4 lg:mt-11 z-20">
             <img
-              className="bg-cover w-full lg:w-[641px] lg:h-[640px] xl:w-[741px] xl:h-[740px] lg:mt-[10px]"
+              className="bg-cover "
               src="/img/home/hero/Home-Hero.webp"
               alt="cabecera-inicio"
               title="cabecera-inicio"
