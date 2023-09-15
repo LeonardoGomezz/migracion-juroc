@@ -17,7 +17,7 @@ export default  async (req: NextApiRequest, res: NextApiResponse) => {
       react: EmailTemplate({data2: JSON.parse(data2)}),
     })
 
-    console.log('send =>',data2)
+    // console.log('send =>',data2)
     res.status(200).json(data)
   } catch (error) {
     res.status(400).json(error)

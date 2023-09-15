@@ -6,7 +6,7 @@ const Schedule = () =>{
 
   const [getSlotTime, setGetSlotTime] = useState('')
   const [date, setDate] = useState('')
-  console.log('desde schedule =>', date)
+  // console.log('desde schedule =>', date)
   
   return(
     <>
