@@ -49,7 +49,7 @@ const ProductsServices = () => {
                       rounded-[30px] text-center p-4 w-full relative"
                       >
                         <div className="flex flex-col justify-center items-center lg:w-[250px]">
-                          <h2 className="font-PlayfairDisplay not-italic font-semibold sm:text-xl lg:text-2xl lg:leading-6 absolute mb-[-138px] mx-11">
+                          <h2 className="font-PlayfairDisplay not-italic font-semibold sm:text-xl lg:text-2xl lg:leading-6 absolute mb-[-138px] mx-11 flex justify-center">
                             {productItem.name}
                           </h2>
                           <div className="h-[253px] flex items-center">

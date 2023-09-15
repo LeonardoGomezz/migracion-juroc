@@ -53,20 +53,18 @@ const HeroProducts = () => {
             </p>
           </div>
 
-          <button
-            data-aos="fade-down"
-            className="mt-8 group relative rounded-md bg-[#495098] w-auto h-12  sm:h-16 sm:w-auto  px-8 py-4 
-            overflow-hidden font-PlayfairDisplay font-bold not-italic text-xl sm:text-2xl sm:font-bold 
-            shadow-[0px_4px_20px_0px_#47AF83] hover:scale-125 transform transition"
-          >
-            <Link
-              title="asesoria"
-              className="px-4 sm:px-8"
-              href="/#AgendaInicio"
+          <div data-aos="fade-down">
+            <button
+        
+              className="group relative rounded-md bg-[#495098] w-auto h-10  sm:h-16 sm:w-auto px-2 
+       overflow-hidden font-PlayfairDisplay font-bold not-italic text-base sm:text-2xl sm:font-bold 
+       shadow-[0px_4px_20px_0px_#47AF83] hover:scale-125 transform transition mt-8"
             >
-              Agenda una asesoría
-            </Link>
-          </button>
+              <Link title="agendar-cita" className="mx-4" href="/#AgendaInicio">
+                  Agenda una asesoria
+              </Link>
+            </button>
+          </div>
 
           <div>
             <h2

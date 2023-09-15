@@ -112,7 +112,7 @@ export function getCalendarEvents(accessToken:string, timeMax:string){
   const maxTime = `${moment(timeMax).format('YYYY-MM-DD')}T20:00:00-05:00`
   const settings = {
     method: 'get',
-    url: `https://www.googleapis.com/calendar/v3/calendars/${process.env.NEXT_PUBLIC_REACT_APP_CALENDAR_ID as string}/events?&timeMin=${minTime}&timeMax=${maxTime}&key=${process.env.NEXT_PUBLIC_REACT_APP_GOOGLE_API_KEY as string}`,
+    url: `https://www.googleapis.com/calendar/v3/calendars/${process.env.NEXT_PUBLIC_CALENDAR_ID as string}/events?&timeMin=${minTime}&timeMax=${maxTime}&key=${process.env.NEXT_PUBLIC_REACT_APP_GOOGLE_API_KEY as string}`,
     headers: {
       'Authorization': `Bearer ${accessToken}`,
       'Accept': 'application/json',

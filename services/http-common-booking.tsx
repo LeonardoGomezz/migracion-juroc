@@ -5,7 +5,7 @@ export default axios.create({
   headers: {
     'Accept': 'application/json',
     'Content-Type':'application/json',
-    xsrfCookie: `tenant=${process.env.NEXT_PUBLIC_TENANT as string}`,
+    xsrfCookie: `tenant=${process.env.NEXT_PUBLIC_TENAT_ID as string}`,
   },
   withCredentials: true
 })

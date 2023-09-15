@@ -69,6 +69,10 @@ html {
   border-color: #47AF83 !important;
 }
 
+.button{
+  color: white;
+}
+
 /* * {
   border:1px solid black;
 }  */

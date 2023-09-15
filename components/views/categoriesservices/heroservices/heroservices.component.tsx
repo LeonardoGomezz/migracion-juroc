@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import { ServicesTarjets } from '../../../../DataInfo/data.component'
 import Link from 'next/link'
 
+
 const HeroServices = () => {
   const { query, asPath } = useRouter()
   const { servicescontent } = query
@@ -44,17 +45,19 @@ const HeroServices = () => {
         >
           Conoce nuestros servicios de la linea hidraulica
         </h2>
-
-        <button
-          data-aos="fade-down"
-          className="mt-8 group relative rounded-md bg-[#495098] w-auto h-12  sm:h-16 sm:w-auto  px-8 py-4 
-             overflow-hidden font-PlayfairDisplay font-bold not-italic text-xl sm:text-2xl sm:font-bold 
-             shadow-[0px_4px_20px_0px_#47AF83] hover:scale-125 transform transition"
-        >
-          <Link className="px-4 sm:px-8" title="agendar-cita" href="#">
-            Agenda una cita
-          </Link>
-        </button>
+        
+        <div data-aos="fade-down">
+          <button
+        
+            className="group relative rounded-md bg-[#495098] w-auto h-10  sm:h-16 sm:w-auto px-2 
+       overflow-hidden font-PlayfairDisplay font-bold not-italic text-base sm:text-2xl sm:font-bold 
+       shadow-[0px_4px_20px_0px_#47AF83] hover:scale-125 transform transition mt-8"
+          >
+            <Link title="agendar-cita" className="mx-4" href="/#AgendaInicio">
+                  Agenda una asesoria
+            </Link>
+          </button>
+        </div>
 
         <div className="mt-20 lg:mt-36">
           <h2
