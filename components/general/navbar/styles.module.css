@@ -16,6 +16,13 @@
   display: block;
 }
 
+
 .serviciosSubMenuActive:hover {
   display: block;
 }
+
+.hoverEffect:hover {
+  color: #47AF83; /* Cambiar el color al hacer hover */
+  /* Otros estilos de hover aquí */
+}
+

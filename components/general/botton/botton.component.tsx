@@ -13,7 +13,7 @@ const Botton = () => {
         className="fixed bottom-4 right-4 bg-green-500 p-2 rounded-full shadow-md z-50 w-14 h-14 lg:hover:scale-125 transform transition"
         onClick={openWhatsApp}
       >
-        <AiOutlineWhatsApp className='w-10 h-10' />
+        <AiOutlineWhatsApp className='w-10 h-10 text-white' />
       </button>
     </div>
   )

@@ -97,6 +97,7 @@ const Navbar = () => {
       setShowSubMenuServicios(styles.serviciosSubMenu)
     }
   }
+  
 
   return (
     <div className="text-white relative z-50">
@@ -107,11 +108,11 @@ const Navbar = () => {
         </h1>
       </div>
       <nav className="w-full top-0 left-0 right-0 z-50 bg-gradient-to-b from-[rgba(73,80,152,0.50)] via-transparent to-[rgba(71,175,131,0.14)] lg:h-[100px]">
-        <div className=" sm:flex sm:items-baseline sm:justify-between sm:mx-28 lg:mx-60 sm:h-36 sm:shrink-0 ">
+        <div className=" sm:flex  sm:justify-between sm:mx-28 lg:mx-60 sm:h-36 sm:shrink-0 ">
           <div className="flex mx-4 sm:mx-0 justify-between items-center">
             <Link title="inicio" href="/">
               <img
-                className="bg-cover cursor-pointer"
+                className="bg-cover cursor-pointer  lg:mt-[-36px]"
                 src="/img/logoJuroc.webp"
                 alt="logo-juroc"
                 title="logo-juroc"
@@ -136,7 +137,7 @@ const Navbar = () => {
 
           <ul
             className={`sm:text-2xl  text-xl font-PlayfairDisplay text-center not-italic font-meduim leading-8 sm:flex sm:items-center sm:static 
-           w-full left-0 z-[-1] sm:z-auto sm:w-auto sm:py-0 py-4 sm:pl-0 pl-7 sm:opacity-100  top-[-400px] transition-all
+           w-full left-0 z-[-1] sm:z-auto sm:w-auto sm:py-0 py-4 sm:pl-0 pl-7 sm:opacity-100  top-[-400px] transition-all lg:mt-[-36px]
            ease-in duration-500 drop-shadow-[0px_3px_1px_rgba(0,0,0,0.95)] sm:drop-shadow-[0px_5px_1px_rgba(0,0,0,0.95)] ${
     isMenuOpen ? 'block' : 'hidden'
     }`}
@@ -193,9 +194,9 @@ const Navbar = () => {
                           >
                             {serviciosCategorias.map((categoria) => (
                               <div key={categoria.id} className="">
-                                <div className="flex flex-col w-36 bg-opacity-25 bg-black">
+                                <div  className={`flex flex-col w-36 bg-opacity-25 bg-black ${categoria.id !== 0 ? styles.hoverEffect : ''}`}>
                                   <Link title="servicios" href={categoria.url}>
-                                    <a className="font-PlayfairDisplay text-base font-bold text-center">
+                                    <a className="font-PlayfairDisplay text-base font-bold text-center ">
                                       {categoria.title}
                                     </a>
                                   </Link>
@@ -251,7 +252,7 @@ const Navbar = () => {
                           <div className={showSubMenu + ' mt-[90px] ml-1'}>
                             {productosCategorias.map((categoria) => (
                               <div key={categoria.id} className="">
-                                <div className="flex flex-col w-32 bg-opacity-25 bg-black">
+                                <div className={`flex flex-col w-32 bg-opacity-25 bg-black ${categoria.id !== 0 ? styles.hoverEffect : ''}`}>
                                   <Link
                                     title="productos-categorias"
                                     href={categoria.url}

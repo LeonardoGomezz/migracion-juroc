@@ -4,19 +4,29 @@ import { FormContext } from '../../../../../context/formContext'
 import stateService from '../../../../../services/api-endpoints'
 import SaveBooking from '../save/save'
 
-const ContactForm = (props:any) => {
+const ContactForm = ({date, getSlotTime}) => {
 
   const {form, setForm} = useContext(FormContext)
   const [dataJson, setDataJson] = useState<any>([])
   const gaEventTracker = useAnalyticsEventTracker('KRU')
 
+  console.log('date desde form =>',date )
+
   const handlerForm = (event:any) => {
     const value = event.target.value
     setForm({
       ...form,
+      date:date,
       [event.target.name]: value
     })
   }
+
+  useEffect(() => {
+    setForm({
+      ...form,
+      date,
+    })
+  }, [date])
 
   const getBooking = () => {
     stateService.getAllBooking()
@@ -155,7 +165,7 @@ const ContactForm = (props:any) => {
             </div>
 
             <div>
-              <SaveBooking data={form} SlotTime={props.getSlotTime} date={props.date} dates={dataJson.slice(0,1)}/>
+              <SaveBooking data={form} SlotTime={getSlotTime} date={date} dates={dataJson.slice(0,1)}/>
             </div>
           </form>
         </div>

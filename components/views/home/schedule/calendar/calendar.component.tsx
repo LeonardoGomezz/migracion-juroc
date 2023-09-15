@@ -1,14 +1,13 @@
 import styles from './styles.module.css'
 import React, { CSSProperties, useEffect, useState } from 'react'
-
 import { getAccessToken, getCalendarEvents } from '../../../../../services/api-endpoints'
 import moment from 'moment'
 import Flatpickr from 'react-flatpickr'
 import { Spanish } from 'flatpickr/dist/l10n/es'
 import 'flatpickr/dist/flatpickr.min.css'
-import 'flatpickr/dist/themes/material_blue.css'
 import { DateTime } from 'luxon'
 import useAnalyticsEventTracker from '../../../../../services/analytics/useAnalyticsEventTracker'
+import 'moment/locale/es'
 
 const timeSlots = [
   { start: '08:00', end: '09:00' },
@@ -25,7 +24,7 @@ const timeSlots = [
 const Calendar = (props: any) =>{
 
   // const [value, onChange] = useState(new Date())
-  const value = new Date()
+  // const value = new Date()
   const [date, setSelectDate] = useState<any>()
   const [slotDate, setSlotDates] = useState<any>([])
   const [accessToken, setAccessToken] = useState('')
@@ -41,7 +40,6 @@ const Calendar = (props: any) =>{
     locale: Spanish,
     inline: true,
     minDate: 'today',
-    theme: 'material_blue',
     disable: [
       function(date:any) {
         // Comprueba si el día de la semana es domingo (0) y lo deshabilita
@@ -49,12 +47,12 @@ const Calendar = (props: any) =>{
       }
     ]
   }
-  //console.log("fecha => ", date.toJSON());
+  console.log('fecha => ', date?.toJSON())
 
   const handleChange = (selectedDates: any) => {
     const date = DateTime.fromJSDate(selectedDates[0])
     gaEventTracker(`Reserva: Seleccionó fecha ${date}`)
-    // console.log("date => ", date?.toJSON())
+    console.log('date => ', selectedDates[0])
 
     setSelectDate(date)
   }
@@ -113,6 +111,7 @@ const Calendar = (props: any) =>{
 
   const handleTimeSlot = (event: any, index: number) => {
     const value = event.target.value
+    console.log('value ', value)
     props.setGetSlotTime(value)
     const newStyles = new Array(slotsFilter?.length).fill(null)
     newStyles[index] = {
@@ -138,12 +137,13 @@ const Calendar = (props: any) =>{
           {/*    onChange={onDateChange}*/}
           {/*    tileDisabled={disablePassDates}*/}
           {/*/>*/}
-          <Flatpickr value={value} onChange={handleChange} options={options} />
+          <Flatpickr onChange={handleChange} options={options} />
           <div className={styles.availability}>
             <p><span className={styles.d}></span>Disponibles</p>
             <p><span className={styles.n}></span>No disponibles</p>
           </div>
           {props.getSlotTime ? <div className={styles.selected}>
+            <p>Fecha: <strong>{moment(date?.toJSON()).format('dddd YYYY-MM-DD')}</strong></p>
             <p>Hora seleccionada: <strong>{props.getSlotTime}</strong></p>
           </div> : null}
         </div>
