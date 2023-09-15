@@ -17,7 +17,7 @@ export default function SaveBooking(props:any) {
   const currentDate = now.toJSON()
   const currentDate2 = now2.toJSON()
   const {form} = useContext(FormContext)
-  console.log('form=>', form)
+  // console.log('form=>', form)
 
 
   useEffect(()=>{

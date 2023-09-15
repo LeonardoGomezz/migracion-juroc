@@ -47,12 +47,12 @@ const Calendar = (props: any) =>{
       }
     ]
   }
-  console.log('fecha => ', date?.toJSON())
+  // console.log('fecha => ', date?.toJSON())
 
   const handleChange = (selectedDates: any) => {
     const date = DateTime.fromJSDate(selectedDates[0])
     gaEventTracker(`Reserva: Seleccionó fecha ${date}`)
-    console.log('date => ', selectedDates[0])
+    // console.log('date => ', selectedDates[0])
 
     setSelectDate(date)
   }
@@ -111,7 +111,7 @@ const Calendar = (props: any) =>{
 
   const handleTimeSlot = (event: any, index: number) => {
     const value = event.target.value
-    console.log('value ', value)
+    // console.log('value ', value)
     props.setGetSlotTime(value)
     const newStyles = new Array(slotsFilter?.length).fill(null)
     newStyles[index] = {

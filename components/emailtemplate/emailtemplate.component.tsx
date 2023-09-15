@@ -12,7 +12,7 @@ interface EmailTemplateProps {
 }
 
 export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({data2}) => {
-  console.log('props resend =>', data2)
+  // console.log('props resend =>', data2)
   return (
     <div>
       <h1>notificacion agendamiento de cita con {data2.name}, de: {data2.business}</h1>

@@ -10,7 +10,7 @@ const ContactForm = ({date, getSlotTime}) => {
   const [dataJson, setDataJson] = useState<any>([])
   const gaEventTracker = useAnalyticsEventTracker('KRU')
 
-  console.log('date desde form =>',date )
+  // console.log('date desde form =>',date )
 
   const handlerForm = (event:any) => {
     const value = event.target.value
