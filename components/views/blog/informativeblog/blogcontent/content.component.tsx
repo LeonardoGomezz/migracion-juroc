@@ -26,7 +26,7 @@ const ContentBlog = () => {
               <div className="flex flex-col items-center lg:flex-row sm:justify-center sm:items-center">
                 <div className="mx-8 lg:mx-0 sm:w-9/12 lg:w-6/12 flex flex-col lg:gap-4 ">
                   <h2 className="font-PlayfairDisplay mb-4 font-bold leading-6 sm:leading-10 not-italic text-lg sm:text-4xl">
-                    {item.content.blogTitle}<span className='text-red-500'>hola</span>
+                    {item.content.blogTitle}
                   </h2>
                   <p className="font-manrope not-italic font-medium leading-4 lg:leading-9 text-xs sm:text-xl">
                     {item?.content.parrafo1}
