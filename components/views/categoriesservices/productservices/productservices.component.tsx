@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import { EngineeringProducts } from '../../../../DataInfo/data.component'
 import ServicesMobil from './mobilproductservices/servicesmobil.component'
@@ -46,11 +46,16 @@ const ProductsServices = () => {
                       <div
                         className="h-[350px] bg-neutral-700 bg-opacity-50 shadow-[0px_10px_20px_0px_#47AF83] 
                       brightness-75 hover:duration-500 hover:bg-transparent hover:filter-none border-8 border-[#47AF83] 
-                      rounded-[30px] text-center p-4 w-full relative"
+                      rounded-[30px] text-center p-4 w-full relative flex flex-col items-center justify-center"
                       >
                         <div className="flex flex-col justify-center items-center lg:w-[250px]">
-                          <h2 className="font-PlayfairDisplay not-italic font-semibold sm:text-xl lg:text-2xl lg:leading-6 absolute mb-[-138px] mx-11 flex justify-center">
-                            {productItem.name}
+                          <h2 className="font-PlayfairDisplay not-italic lg:font-semibold text-xl lg:text-2xl lg:leading-8 absolute mb-[-138px] px-4">
+                            {productItem.name.split('\n').map((line, index) => (
+                              <React.Fragment key={index}>
+                                {line}
+                                {index < productItem.name.split('\n').length - 1 && <br />}
+                              </React.Fragment>
+                            ))}
                           </h2>
                           <div className="h-[253px] flex items-center">
                             <img

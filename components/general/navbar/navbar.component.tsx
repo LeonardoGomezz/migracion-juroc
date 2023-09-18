@@ -171,7 +171,7 @@ const Navbar = () => {
                     {isServiciosOpen[index] && (
                       <div className="absolute block ">
                         <div className="flex">
-                          <div className="mt-4">
+                          <div className="sm:mt-14 lg:mt-8">
                             {item.content.map((item) => (
                               <div className="flex flex-col" key={item.title}>
                                 <div className="bg-opacity-30 bg-black w-32">
@@ -190,7 +190,7 @@ const Navbar = () => {
                             ))}
                           </div>
                           <div
-                            className={showSubMenuServicios + ' mt-[90px] ml-1'}
+                            className={showSubMenuServicios + ' sm:mt-[125px] lg:mt-[105px] ml-1'}
                           >
                             {serviciosCategorias.map((categoria) => (
                               <div key={categoria.id} className="">
@@ -230,7 +230,7 @@ const Navbar = () => {
                     {isProductosOpen[index] && (
                       <div className="absolute block ">
                         <div className="flex">
-                          <div className="mt-4">
+                          <div className="sm:mt-14 lg:mt-8">
                             {item.content.map((item) => (
                               <div className="flex flex-col" key={item.title}>
                                 <div className="bg-opacity-30 bg-black w-32">
@@ -249,7 +249,7 @@ const Navbar = () => {
                               </div>
                             ))}
                           </div>
-                          <div className={showSubMenu + ' mt-[90px] ml-1'}>
+                          <div className={showSubMenu + ' sm:mt-[125px] lg:mt-[105px] ml-1'}>
                             {productosCategorias.map((categoria) => (
                               <div key={categoria.id} className="">
                                 <div className={`flex flex-col w-32 bg-opacity-25 bg-black ${categoria.id !== 0 ? styles.hoverEffect : ''}`}>
