@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {bomberilProducts, industrailProducts} from '../../../../DataInfo/data.component'
 import ProductsMobil from './productsmobil/productsmobil.component'
 import FeaturedProjects from '../../featuredprojects/featuredprojects.component'
@@ -44,8 +44,13 @@ const ProductsContent = () => {
                       rounded-[30px] text-center p-4 w-full relative"
                     >
                       <div className="flex flex-col justify-center items-center lg:w-[250px]">
-                        <h2 className="font-PlayfairDisplay not-italic lg:font-semibold text-xl lg:text-2xl lg:leading-8 absolute mb-[-138px]">
-                          {productItem.name}
+                        <h2 className="font-PlayfairDisplay not-italic lg:font-semibold text-xl lg:text-2xl lg:leading-8 absolute mb-[-138px] px-4">
+                          {productItem.name.split('\n').map((line, index) => (
+                            <React.Fragment key={index}>
+                              {line}
+                              {index < productItem.name.split('\n').length - 1 && <br />}
+                            </React.Fragment>
+                          ))}
                         </h2>
                         <div className="h-[253px] flex items-center">
                           <img
@@ -84,13 +89,18 @@ const ProductsContent = () => {
                 {item.content.map((productItem) => (
                   <div key={productItem.name}>
                     <div
-                      className="h-[350px] bg-neutral-700 bg-opacity-50 shadow-[0px_10px_20px_0px_#495098] 
+                      className="h-[380px] bg-neutral-700 bg-opacity-50 shadow-[0px_10px_20px_0px_#495098] 
                       brightness-75 hover:duration-500 hover:bg-transparent hover:filter-none border-8 border-[#495098] 
-                      rounded-[30px] text-center p-4 w-full relative"
+                      rounded-[30px] text-center p-4 w-full relative flex flex-col items-center justify-center"
                     >
                       <div className="flex flex-col justify-center items-center lg:w-[250px]">
-                        <h2 className="font-PlayfairDisplay not-italic lg:font-semibold text-xl lg:text-2xl lg:leading-8 absolute mb-[-138px]">
-                          {productItem.name}
+                        <h2 className="font-PlayfairDisplay not-italic lg:font-semibold text-xl lg:text-2xl lg:leading-8 absolute mb-[-178px] px-4">
+                          {productItem.name.split('\n').map((line, index) => (
+                            <React.Fragment key={index}>
+                              {line}
+                              {index < productItem.name.split('\n').length - 1 && <br />}
+                            </React.Fragment>
+                          ))}
                         </h2>
                         <div className="h-[253px] flex items-center">
                           <img
@@ -100,7 +110,7 @@ const ProductsContent = () => {
                             title={productItem.title}
                           />
                         </div>
-                        <div className="">
+                        <div className="mt-10">
                           <p className="font-manrope not-italic lg:font-normal lg:leading-6">
                             {productItem.description}
                           </p>

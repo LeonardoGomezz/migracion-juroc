@@ -18,20 +18,22 @@ const HeroServices = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center mx-8 text-center">
-        <img
-          data-aos="fade-down"
-          className="bg-cover w-[600px] h-[500px] sm:w-[1000px] sm:h-[550px] hidden sm:block"
-          src="/img/servicios/ingenieria/Cabecera-Ingenieria.webp"
-          alt="cabecera-ingenieria"
-          title="portada ingenieria"
-        />
-        <img
-          data-aos="fade-down"
-          className="block sm:hidden"
-          src="/img/servicios/ingenieria/Cabecera-Ingenieria-Movil.webp"
-          alt="cabecera-ingenieria-movil"
-          title="portada ingenieria"
-        />
+        <div data-aos="fade-down">
+          <img
+            
+            className="bg-cover w-[600px] h-[500px] sm:w-[1000px] sm:h-[550px] hidden sm:block"
+            src="/img/servicios/ingenieria/Cabecera-Ingenieria.webp"
+            alt="cabecera-ingenieria"
+            title="portada ingenieria"
+          />
+          <img
+            data-aos="fade-down"
+            className="block sm:hidden"
+            src="/img/servicios/ingenieria/Cabecera-Ingenieria-Movil.webp"
+            alt="cabecera-ingenieria-movil"
+            title="portada ingenieria"
+          />
+        </div>
         <h2
           data-aos="fade-down"
           className=" font-PlayfairDisplay not-italic text-3xl sm:text-5xl lg:text-7xl leading-10 sm:leading-[50px] lg:leading-[90px] font-bold"

@@ -24,9 +24,9 @@ const ContentBlog = () => {
               key={item.title}
             >
               <div className="flex flex-col items-center lg:flex-row sm:justify-center sm:items-center">
-                <div className="mx-8 lg:mx-0 sm:w-9/12 lg:w-4/12 flex flex-col lg:gap-4 ">
+                <div className="mx-8 lg:mx-0 sm:w-9/12 lg:w-6/12 flex flex-col lg:gap-4 ">
                   <h2 className="font-PlayfairDisplay mb-4 font-bold leading-6 sm:leading-10 not-italic text-lg sm:text-4xl">
-                    {item.content.blogTitle}
+                    {item.content.blogTitle}<span className='text-red-500'>hola</span>
                   </h2>
                   <p className="font-manrope not-italic font-medium leading-4 lg:leading-9 text-xs sm:text-xl">
                     {item?.content.parrafo1}
@@ -43,7 +43,7 @@ const ContentBlog = () => {
               </div>
 
               <div className="flex flex-col items-center lg:flex-row sm:justify-center sm:items-center ">
-                <div className="mx-8 lg:mx-0 sm:w-9/12 lg:w-4/12 flex flex-col lg:gap-4">
+                <div className="mx-8 lg:mx-0 sm:w-9/12 lg:w-6/12 flex flex-col lg:gap-4">
                   <h2 className="font-PlayfairDisplay font-bold leading-10 not-italic text-lg sm:text-4xl text-[#47AF83]"></h2>
                   <p className="font-manrope not-italic font-medium leading-4 sm:leading-9 text-xs sm:text-xl">
                     {item?.content.parrafo2}
@@ -60,7 +60,7 @@ const ContentBlog = () => {
               </div>
 
               <div className="flex flex-col lg:flex-row justify-center items-center ">
-                <div className="mx-8 lg:mx-0 sm:w-9/12 lg:w-6/12 flex flex-col lg:gap-4">
+                <div className="mx-8 lg:mx-0 sm:w-9/12 lg:w-8/12 flex flex-col lg:gap-4">
                   <h2 className="font-PlayfairDisplay font-bold leading-10 not-italic text-lg sm:text-4xl"></h2>
                   <p className="font-manrope not-italic font-medium leading-4 sm:leading-9 text-xs sm:text-xl">
                     {item?.content.parrafo3}
@@ -100,7 +100,7 @@ const ContentBlog = () => {
               </div>
 
               <div className="flex flex-col items-center lg:flex lg:flex-row sm:justify-center sm:items-center">
-                <div className="mx-8 lg:mx-0 sm:w-9/12 lg:w-4/12 flex flex-col lg:gap-4 ">
+                <div className="mx-8 lg:mx-0 sm:w-9/12 lg:w-6/12 flex flex-col lg:gap-4 ">
                   <h2 className="font-PlayfairDisplay font-bold leading-10 not-italic text-lg sm:text-4xl"></h2>
                   <p className="font-manrope not-italic font-medium leading-4 lg:leading-9 text-xs sm:text-xl">
                     {item?.content.parrafo4}
@@ -117,7 +117,7 @@ const ContentBlog = () => {
               </div>
 
               <div className="flex justify-center items-center mt-4">
-                <div className="mx-8 lg:mx-0 lg:w-6/12 flex flex-col lg:gap-4">
+                <div className="mx-8 lg:mx-0 lg:w-8/12 flex flex-col lg:gap-4">
                   <p className="font-manrope not-italic font-mediu leading-4m lg:leading-9 text-xs sm:text-xl">
                     {item?.content.parrafo5}
                   </p>

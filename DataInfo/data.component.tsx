@@ -73,22 +73,22 @@ export const BlogContent = [
       parrafo3:'Un aspecto clave es el diseño cuidadoso de estas redes. Un diseño bien pensado tiene en cuenta la disposición del edificio, los riesgos potenciales y las regulaciones locales. Esto garantiza una cobertura adecuada y una respuesta efectiva en caso de incendio. Las redes contra incendios deben ser adaptadas a las necesidades específicas de cada ubicación, desde hospitales hasta almacenes industriales. La elección de los componentes es igualmente importante. Los rociadores automáticos, por ejemplo, son un elemento esencial en muchas redes contra incendios. Estos dispositivos liberan agua o agentes extintores para sofocar el fuego. La selección de los rociadores adecuados y su ubicación estratégica pueden marcar la diferencia en la capacidad de controlar un incendio.',
       parrafo4:'La instalación de estas redes también debe ser realizada por profesionales calificados. Los técnicos especializados conocen las normativas de seguridad y garantizan que todos los componentes se coloquen adecuadamente. Esto incluye la instalación de conductos, tuberías y dispositivos de control, así como las pruebas y la puesta en marcha del sistema.',
       parrafo5:'En resumen, el diseño e instalación de redes contra incendios son fundamentales para la seguridad en edificios e instalaciones de todo tipo. Estos sistemas no solo detectan incendios de manera temprana, sino que también brindan los medios necesarios para controlar y extinguir el fuego antes de que cause daños significativos. La inversión en un diseño adecuado y una instalación profesional siempre será una buena decisión. Juroc te protege en este y muchos casos más sobre detección y protección de incendios.',
-      img1 :'/blog/blogcontent/blog2/gabinete-19 6.webp',
+      img1 :'/img/blog/blogcontent/blog2/foto1.webp',
       atl1: 'imagen-1',
       title1: 'imagen 1',
-      img2 :'/blog/blogcontent/blog2/grifo 2.webp',
+      img2 :'/img/blog/blogcontent/blog2/foto2.webp',
       atl2: 'imagen-2',
       title2: 'imagen 2',
-      img3 :'/blog/blogcontent/blog2/gabinete-19 6.webp',
+      img3 :'/img/blog/blogcontent/blog2/foto3.webp',
       atl3: 'imagen-3',
       title3: 'imagen 3',
-      img4 :'/blog/blogcontent/blog2/gabinete-19 6.webp',
+      img4 :'/img/blog/blogcontent/blog2/foto4.webp',
       atl4: 'imagen-4',
       title4: 'imagen 4',
-      img5 :'/blog/blogcontent/blog2/gabinete-19 6.webp',
+      img5 :'/img/blog/blogcontent/blog2/foto5.webp',
       atl5: 'imagen-5',
       title5: 'imagen 5',
-      img6 :'/blog/blogcontent/blog2/bomba-01 1.webp',
+      img6 :'/img/blog/blogcontent/blog2/foto6.webp',
       atl6: 'imagen-6',
       title6: 'imagen 6'
     }
@@ -116,7 +116,7 @@ export const EngineeringProducts = [
     title: 'ingenieria',
     content: [
       {
-        name:'Redes contra incendios',
+        name:'Redes contra\nincendios',
         img: '/img/servicios/ingenieria/Redes-Contra-Incendios.webp',
         alt:'redes-contra-incendios',
         title: 'redes contra incendios',
@@ -235,7 +235,7 @@ export const industrailProducts = [
         description: 'Diseñado para proteger a las brigadas de emergencia '
       },
       {
-        name:'Estructurales tipo bombero',
+        name:'Estructurales\ntipo bombero',
         img: '/img/productos/industrial/Estructurales-tipo-bombero.webp',
         alt:'estructurales-tipo-bombero',
         title: 'estructurales tipo bombero',
@@ -249,14 +249,14 @@ export const industrailProducts = [
         description: 'Trabajo en atmósferas con niveles reducidos de oxígeno y gases'
       },
       {
-        name:'Trajes para salpicadura',
+        name:'Trajes para\nsalpicadura',
         img: '/img/productos/industrial/Trajes-Salpicaduras.webp',
         alt:'Trajes-salpicaduras',
         title: 'Trajes para salpicaduras',
         description: 'Protege frente agresiones térmicas (calor y/o fuego)'
       },
       {
-        name:'Mangueras industriales',
+        name:'Mangueras\nindustriales',
         img: '/img/productos/industrial/Mangueras-Industriales.webp',
         alt:'Mangueras-industriales',
         title: 'Mangueras industriales',
@@ -277,14 +277,14 @@ export const industrailProducts = [
         description: 'Botas, cascos, tapa oídos, gafas de protección'
       },
       {
-        name:'Mangaveletas con mastil',
+        name:'Mangaveletas\ncon mastil',
         img: '/img/productos/industrial/Mangaveletas.webp',
         alt:'Mangaveletas-con-mastil',
         title: 'mangaveletas con mastil',
         description: 'Permiten determinar la intensidad y dirección del viento'
       },
       {
-        name:'Duchas mixtas lavaojos',
+        name:'Duchas mixtas,\nlavaojos',
         img: '/img/productos/industrial/Duchas-Mixtas.webp',
         alt:'duchas-mixtas',
         title: 'duchas mixtas lavaojos',
@@ -308,14 +308,14 @@ export const bomberilProducts = [
     title: 'bomberil',
     content: [
       {
-        name:'boquillas con pistola',
+        name:'boquillas\ncon pistola',
         img: '/img/productos/bomberil/boquilla-con-pistola.webp',
         alt:'boquillas',
         title: 'boquillas',
         description: 'Proporcionar o dosificar el agua que sale a través de la manguera'
       },
       {
-        name:'Manguera industrial sintetica',
+        name:'Manguera\nindustrial sintetica',
         img: '/img/productos/bomberil/Manguera-Sintetica.webp',
         alt:'manguera-sintetica',
         title: 'manguera industrial sintetica',
@@ -329,7 +329,7 @@ export const bomberilProducts = [
         description: 'Diseñada para el manejo de acoples de manguera'
       },
       {
-        name:'Bifurcacion de 2.1/2',
+        name:'Bifurcacion\nde 2.1/2',
         img: '/img/productos/bomberil/Bifurcacion.webp',
         alt:'bifurcacion-2.1/2',
         title: 'bifurcacion de 2.1/2',
@@ -364,7 +364,7 @@ export const bomberilProducts = [
         description: 'Trabajo en atmósferas con niveles reducidos de oxígeno y gases'
       },
       {
-        name:'Equipos de seguridad bomberil',
+        name:'Equipos de\nseguridad bomberil',
         img: '/img/productos/bomberil/Equipo-Seguridad-Bomberil.webp',
         alt:'equipo-seguridad-bomberil',
         title: 'equipos de seguridad bomberil',
@@ -385,7 +385,7 @@ export const bomberilProducts = [
         description: 'Perfecto para incendios forestales, arbustos y basura.'
       },
       {
-        name:'Casco para forestal, bate de fuego',
+        name:'Casco para forestal,\nbate fuego',
         img: '/img/productos/bomberil/Casco-Forestal.webp',
         alt:'casco-forestal',
         title: 'casco para forestal bate de fuego',
@@ -488,12 +488,12 @@ export const servicios = [
       {
         id: 0,
         title: 'Servicios de interés',
-        url: '/#',
+        url: '#',
       },
       {
         id: 1,
         title: 'Por segmento ->',
-        url: '/#',
+        url: '#',
       },
     ],
   },
@@ -505,7 +505,7 @@ export const serviciosCategorias = [
   {
     id: 0,
     title: 'Linea hidraulica ▼',
-    url: '/#',
+    url: '#',
   },
   {
     id: 1,
@@ -523,12 +523,12 @@ export const productos = [
       {
         id: 0,
         title: 'Productos de interés',
-        url: '/#',
+        url: '#',
       },
       {
         id: 1,
         title: 'Por lineas ->',
-        url: '/#',
+        url: '#',
       },
     ],
   },
@@ -539,7 +539,7 @@ export const productosCategorias = [
   {
     id: 0,
     title: 'Lineas ▼',
-    url: '/#',
+    url: '#',
   },
   {
     id: 1,
